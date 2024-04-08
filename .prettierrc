@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "prettier-plugin-sql",
+    "prettier-plugin-embed",
+    "@trivago/prettier-plugin-sort-imports"
+  ],
+  "arrowParens": "always",
+  "endOfLine": "lf",
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "embeddedSqlTags": ["sql"],
+  "language": "postgresql",
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrder": ["server-only", "<THIRD_PARTY_MODULES>", "^[./]"]
+}
